@@ -1,52 +1,30 @@
-# Hackathon Direction Comparison
+# Hackathon Direction Notes
 
-Status: draft.
+Status: public-safe draft.
 
 ## Learner Fit
 
 - Strengths: Web3 cross-border legal/compliance architecture, product research, social science framing, AI-agent-assisted building, bilingual documentation.
 - Constraints: 1-2 hours per day, no traditional programming foundation.
-- Core thesis: Programmable Compliance / 可编程合规, meaning compliance should be embedded upfront into product, protocol, permission, evidence, and review design instead of treated only as after-the-fact remedy.
-- Best project shape: clear regulated or quasi-regulated problem, strong workflow design, small demo, visible safety boundary, agent-assisted implementation.
+- Core thesis: Programmable Compliance / 可编程合规, meaning compliance should be considered during product and protocol design rather than added only after risk appears.
 
-## Candidate Directions
+## Public Direction Areas
 
-| Direction | User Pain | Demo Feasibility | Data / Tool Needs | Main Risk | Fit |
-| --- | --- | --- | --- | --- | --- |
-| Agentic Commerce Compliance Layer | Agents may negotiate, purchase, or coordinate services, but users and counterparties need jurisdiction, payment, disclosure, and audit boundaries. | High: simulate agent-assisted transaction review before payment/settlement. | Mock merchant/service profile, jurisdiction checklist, payment/settlement state machine, audit log. | Accidentally implying the agent can make legal or payment decisions autonomously. | Very strong |
-| RWA Compliance Copilot | RWA issuers, distributors, and users need to classify asset, participant, transfer restrictions, and evidence requirements. | High: form-to-risk-map workflow with cited explanations. | RWA examples, jurisdiction matrix, investor/asset attributes, restriction labels. | Overstating legal certainty or jurisdiction coverage. | Very strong |
-| DAO Governance Legal Intelligence | DAO voters and contributors face long proposals, scattered context, and governance/legal risk. | High: proposal summarizer, argument map, legal risk flags, vote-assist brief. | Governance forum pages, Snapshot/Tally examples, citation workflow. | Biased summaries or fake certainty. | Strong |
-| Programmable Compliance Rule Engine | Web3 teams need to turn legal/compliance requirements into product rules before users, wallets, or agents take risky actions. | High: rule builder plus review and audit trail demo. | Example transaction types, jurisdiction attributes, evidence checklist, review states. | Rules can look too deterministic unless uncertainty is clearly surfaced. | Very strong |
-| Wallet / Permission | Users cannot understand what an agent or dapp is allowed to do. | High: permission explainer, session key risk label, confirmation screen. | Wallet permission examples, policy templates, UX mock. | Accidentally normalizing risky permissions. | Strong |
+These are broad learning directions, not finalized project specs:
 
-## Current Shortlist
-
-1. Programmable Compliance Rule Engine
-2. Agentic Commerce Compliance Layer
-3. RWA Compliance Copilot
-4. DAO Governance Legal Intelligence
+- Agentic Commerce: how agent-driven transactions should preserve user control, payment constraints, and accountability.
+- RWA: how asset, participant, and jurisdiction constraints can become clearer before transfer or distribution.
+- DAO / Governance: how AI can help summarize governance context while preserving human decision authority.
+- Wallet / Permission: how users can understand and control what agents or applications are allowed to do.
+- Compliance Intelligence: how AI-assisted analysis can surface uncertainty, evidence gaps, and review needs.
 
 ## Decision Criteria
 
-- Can the core demo be explained in 60 seconds?
-- Can it be built with AI-agent-assisted coding and simple data in one week?
-- Does it make human confirmation and safety boundaries obvious?
-- Does it show compliance as programmable upfront design rather than post-hoc review?
-- Does it produce useful public proof-of-work even if the hackathon idea changes?
-- Can it connect to Handbook feedback or improve the learning commons?
+- Does the idea reduce a real coordination or trust problem?
+- Does it make human review boundaries clear?
+- Can a small demo explain the value without pretending legal certainty exists where it does not?
+- Can it produce public proof-of-work without exposing sensitive project mechanics?
 
 ## Next Step
 
-Pick one direction and write a one-page prototype brief:
-
-- Target user
-- Pain point
-- Existing workaround
-- Core workflow
-- AI role
-- Web3 role
-- Human-in-the-loop boundary
-- Legal/compliance boundary
-- Programmable compliance rule
-- Demo path
-- Success criteria
+Keep public notes at the level of learning direction. Detailed architecture, scoring logic, evaluation design, or commercial strategy should stay in private working files until deliberately prepared for release.

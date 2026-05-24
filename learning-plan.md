@@ -143,7 +143,7 @@ For each major topic, prefer one of these outputs:
 - Risk note: what could go wrong, what must never be automated, what needs rollback or review.
 - Prototype brief: target user, core loop, demo script, data needed, success criteria.
 - Compliance architecture note: parties, assets, fund flow, jurisdiction assumptions, regulated touchpoints, prohibited automation, human review points.
-- Programmable compliance pattern: trigger, rule, evidence, decision boundary, human review, on-chain/off-chain record, appeal or dispute path.
+- Programmable compliance reflection: what should be visible, reviewable, and constrained before execution.
 
 ## Hackathon Bias
 
@@ -152,4 +152,4 @@ Good first directions for this profile:
 - Agentic Commerce Compliance Layer: agent-assisted commerce workflow with payment/settlement, jurisdiction checks, user disclosures, and human approval before binding actions.
 - RWA Compliance Copilot: classify asset, jurisdiction, participant, transfer restriction, and required disclosure/evidence in a transparent workflow.
 - DAO Governance Legal Intelligence: summarize proposals, compare stakeholder arguments, identify governance/legal risk, and create transparent voting-assist briefs.
-- Programmable Compliance Rule Engine: express compliance as triggers, rules, evidence, review boundaries, execution controls, and audit records.
+- Programmable Compliance thesis: explore how compliance can become an upfront design constraint without publicly exposing detailed mechanics too early.
